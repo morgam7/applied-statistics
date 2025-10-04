@@ -2,7 +2,7 @@
 **Author:** Marcella Morgan
 **Image Credit:** Images generated with the help of ChatGPT (OpenAI).
 
-![Cover Image](student_with_curve.png)
+![Cover Image](images/student_with_curve.png)
 
 This is the repository for my project for the Applied Statistics module of the [Higher Diploma in Science in Data Analytics given by ATU Galway-Mayo](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics). My lecturer was [Ian McLoughlin](https://github.com/ianmcloughlin).
 
