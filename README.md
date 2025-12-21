@@ -16,30 +16,30 @@ To get started with this repository, you’ll need:
 
 ## Libraries Used
 
-# Mathematical functions from the standard library.
-# https://docs.python.org/3/library/math.html
+Mathematical functions from the standard library.
+https://docs.python.org/3/library/math.html
 import math
 
-# Random selections.
-# https://docs.python.org/3/library/random.html
+Random selections.
+https://docs.python.org/3/library/random.html
 import random
 
-# Numerical structures and operations.
-# https://numpy.org/doc/stable/reference/index.html#reference
+Numerical structures and operations.
+https://numpy.org/doc/stable/reference/index.html#reference
 import numpy as np
 
-# Plotting.
-# https://matplotlib.org/stable/contents.html
+Plotting.
+https://matplotlib.org/stable/contents.html
 import matplotlib.pyplot as plt
 
-# Random selections.
-# https://docs.python.org/3/library/random.html
+Random selections.
+https://docs.python.org/3/library/random.html
 import random
 
-# Statistics.
+Statistics.
 import scipy.stats as stats
 
-# Data frames.
+Data frames.
 import pandas as pd
 
 
@@ -65,12 +65,12 @@ This problem plays with the famous Lady Tasting Tea experiment, where instead of
 Here, we explore the difference between sample standard deviation (ddof=1) and population standard deviation (ddof=0). We generate 100,000 samples of size 10 from the standard normal distribution and compute both standard deviations for each sample. By plotting the two sets of results on the same axes, we can visually compare the distributions and see how the correction for sample size affects variability. Finally, we consider how these differences are expected to change if the sample size is increased, connecting the simulation to statistical theory.
 
 
-## Problem 3:
+## Problem 3: t-Tests and Type II Errors
 
 This problem focuses on type II error rates in hypothesis testing. We vary the difference in means (d = 0 to 1.0) between two normal distributions (sample size = 100 each). For each scenario, we simulate 1,000 independent t-tests, recording the proportion of times the null hypothesis is not rejected (type II error). Plotting these error rates against the mean differences illustrates how the probability of failing to detect a real effect declines as the true difference increases. This exercise emphasizes the relationship between effect size, sample size, and statistical power.
 
 
-## Problem 4:
+## Problem 4: ANOVA vs t-Tests
 
 The goal here is to compare ANOVA with multiple independent t-tests when analyzing differences across more than two groups. We generate three normal samples of size 30 each, with means 0, 0.5, and 1. After performing a one-way ANOVA, we also run three pairwise t-tests (group 1 vs 2, 1 vs 3, 2 vs 3). The results are compared, highlighting how ANOVA efficiently tests for differences across all groups simultaneously, avoiding the inflation of type I error that arises when running multiple t-tests independently.
 
